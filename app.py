@@ -8,7 +8,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:8080","http://boslaoge.me","https://boslaoge.me"])
+CORS(app, origins=["http://localhost:8080"])
 app.config.from_pyfile("config.py")
 api = Api(app)
 mongo = PyMongo(app)
