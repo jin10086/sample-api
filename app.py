@@ -17,13 +17,12 @@ cache = Cache(app, config={"CACHE_TYPE": "redis"})
 
 class Api(Resource):
 
-    def get(self, eos_account):
-        data = mongo.db.accounts.find({"eos_account": eos_account}, {"_id": 0})
-        return list(data)
+    def get(self):
+        return {"hello": "world"}
 
 
-api.add_resource(Api, "/<string:eos_account>")
+api.add_resource(Api, "/")
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=5002, threaded=True)
+    app.run(debug=True, port=5000, threaded=True)
