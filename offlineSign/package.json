@@ -1,0 +1,20 @@
+{
+  "name": "offlinesign",
+  "version": "1.0.0",
+  "description": "主要目的是快速开发...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jin10086/sample-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jin10086/sample-api/issues"
+  },
+  "homepage": "https://github.com/jin10086/sample-api#readme"
+}
