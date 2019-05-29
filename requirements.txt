@@ -1,6 +1,6 @@
 flask
 flask_restful
+flask-caching
 flask_pymongo
 flask_cors
 redis
-flask-redis
